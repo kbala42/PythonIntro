@@ -1,0 +1,13 @@
+print("Hello World")
+print("Hello Python")
+print("------------------")# Ara açmak belirteç işareti olarak kullanıyoruz
+print("Hello","World")
+print("------------------")
+print("Hello"," ","World")
+print("------------------")
+print("Hello ","World")
+print("------------------")
+print("Hello"," World")
+print("------------------")
+print("Hello"+"World"+"D.Ritche")
+print("Hello","World","D.Ritche")

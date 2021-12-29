@@ -1,0 +1,7 @@
+kumeBir=set()
+kumeIki = set([1, 2, 3, 2, 4, 1, 3, 5, 4])
+print(kumeBir)
+print(type(kumeBir))
+print("------------------------")
+print(kumeIki)
+print(type(kumeIki))

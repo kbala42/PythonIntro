@@ -1,0 +1,6 @@
+print("Hızlı\nPython\nProgramlama")
+print("Hızlı\tPython\tProgramlama")
+print("Hızlı\t\tPython\tProgramlama")
+print("Hızlı\tPython\tProgramlama")
+print("Damla\"nın Dolabı")
+print("Damla'nın Dolabı")
