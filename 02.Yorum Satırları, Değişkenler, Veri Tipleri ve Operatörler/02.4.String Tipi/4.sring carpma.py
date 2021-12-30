@@ -1,24 +1,16 @@
 metin1 = 'Merhaba'
 metin2 = 'Python'
-metin3=metin1+metin2
-print(metin3) #iki ifadeyi toplayabiliriz
-print('------daha düzgün toplamak için------------------------')
-# daha düzgün toplamak için
-metin3=metin1+' '+ metin2
-print(metin3)
-print('-------birinci ifadenin başına boşluk konabilir ----------------------')
-# yada
-metin1 = 'Merhaba ' #birinci ifadenin başına boşluk konabilir
-metin2= 'Python'
-metin3=metin1+metin2
-print(metin3)
-print('--------yada ikinci ifadenin başına boşluk konabilir----------------------')
-metin1 = 'Merhaba'
-metin2= ' Python'
-metin3=metin1+metin2
-print(metin3)
-print('----------Tek değişkende toplayabiliriz-----------------')
-metin1 = 'Merhaba'
-metin2 = 'Python'
-metin1=metin1+' '+metin2
-print(metin1)
+# metin3=metin1*metin2 iki çarpılmaz
+
+print('----------------------------------------------------------------------------------------')
+print('---metin sabit bir sayı ile çarpılabilir. Bu durumda sabir kadar kendini tekrar eder.---')
+print('----------------------------------------------------------------------------------------')
+print(3*metin1)
+print()
+
+print('----------------------------------------------------------------------------------------')
+print('----Kelimelerin tekrarında karışmayı önlemek için boşuk eklenebilir. -------------------')
+print('----Eğer öncelik için parantes kullanılmazsa sonuç etkisiz olur-------------------------')
+print('----------------------------------------------------------------------------------------')
+print(3*metin1+' ')
+print(3*(metin1+' '))
