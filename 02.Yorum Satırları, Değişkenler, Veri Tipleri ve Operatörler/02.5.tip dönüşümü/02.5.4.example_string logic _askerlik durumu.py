@@ -1,7 +1,20 @@
-askerlikYaptiMi=True
+print('''
+Boolean tipinde değişken tanımlıyoruz
+''')
+askerlikYaptiMi = True
+print('Dönüşen sayı tipi: ', type(askerlikYaptiMi))
 print('Askerlik yaptı mı?', askerlikYaptiMi)
-askerlikYaptiMiInt=int(askerlikYaptiMi) #integer tipine dönüştürüldü.
-print('Askerlik yaptı mı?', askerlikYaptiMiInt)
-askerlikYaptiMiStr=str(askerlikYaptiMi) #string tipine dönüştürüldü.
+print('--------------------------------------------')
+print('''
+integer tipine dönüştürüyoruz
+''')
+askerlikYaptiMiInt = int(askerlikYaptiMi)
+print('Dönüşen sayı tipi: ', type(askerlikYaptiMiInt))
+askerlikYaptiMiInt = int(askerlikYaptiMi)
+print('--------------------------------------------')
+print('''
+string tipine dönüştürüyoruz
+''')
+askerlikYaptiMiStr=str(askerlikYaptiMi)
+print('Dönüşen sayı tipi: ', type(askerlikYaptiMiStr))
 print('Askerlik yaptı mı?', askerlikYaptiMiStr)
-#Çıktı olarak True verir ancak bu boolean tipinde değildir.
