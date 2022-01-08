@@ -1,8 +1,19 @@
-metin1 = 'Merhaba '
-metin2 = 'Mars'
-print (metin1) # karakter dizisinin tamamını yazar
-print (metin1 * 2) # karakter dizisini 2 defa yazar
-print (metin1 + metin2) # iki karakter dizisini birleştirir
-print ('metin1 adlı değişkendeki değerin uzunluğu:', len(metin1))#boşluk bir karakter
+print('--------------------------------------------------')
+print('Pythonda stringler birer dizi olduğundan herharf  ' \
+      'bir dizi elemanı şeklinde ifade edilebilir.' \
+      'Dizi elemanının indisi ifade edilerek ulaşılabilir')
+print('------------------------------------------')
+metin1 = 'Merhaba'
+print(metin1[0])
+print(metin1[1])
+print(metin1[2])
+print(metin1[3])
+print(metin1[4])
+print(metin1[5])
 
+print('-----------------------------------------------')
+print('Sayı tiplerinde dizi indisi şeklinde ulaşılamaz')
+print('-----------------------------------------------')
+sayiBir=123456
+#print(sayiBir[0])
 

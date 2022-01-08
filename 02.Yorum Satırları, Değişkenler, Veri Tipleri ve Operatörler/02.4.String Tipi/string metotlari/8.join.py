@@ -1,0 +1,36 @@
+print('------------------------------------------------------')
+print('join fonksiyonu karakter dizi elmanlarını birleştirir\n'
+      'Tırnaklar içinde boşluk yok')
+print('------------------------------------------------------')
+metin=('Merhaba','Python','Dili')
+print(''.join(metin))
+print()
+
+print('-----------------------------------------------------')
+print('join metodunda tırnaklar içinde boşluk kullandığımızda  ')
+print('-----------------------------------------------------')
+metin=('Merhaba','Python','Dili')
+print(' '.join(metin))
+print()
+
+print('-----------------------------------------------------')
+print('join metodunda tırnaklar içinde nokta kullandığımızda  ')
+print('-----------------------------------------------------')
+metin=('T','B','M','M')
+print('.'.join(metin))
+print()
+
+print('-----------------------------------------------------')
+print('join metodunda tırnaklar içinde nokta kullandığımızda')
+print('-----------------------------------------------------')
+metin=('T','B','M','M')
+print('-'.join(metin))
+print()
+
+print('-----------------------------------------------------')
+print('ayıraç değişken içinde verilirse esneklik kazanabilir ')
+print('-----------------------------------------------------')
+metin=('T','B','M','M')
+ayirac = '/'
+print(ayirac.join(metin))
+print()

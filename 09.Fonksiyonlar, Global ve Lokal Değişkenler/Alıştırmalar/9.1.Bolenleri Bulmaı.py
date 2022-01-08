@@ -1,0 +1,3 @@
+def tamBolenleriBul(sayi):
+
+    tamBolenler =[]
