@@ -1,8 +1,8 @@
 print('-----------------------------------------------')
-print('uper() metodu bütün metni büyük harf yapar')
+print('upper() metodu bütün metni büyük harf yapar')
 print('-----------------------------------------------')
 metin1 = 'MERHABA Python'
-print(metin1.lower())
+print(metin1.upper())
 print()
 
 

@@ -1,0 +1,11 @@
+print('---------------------------------------------------------------')
+print('expandtabs() metodu sekmeler arası boşluğu belirlememizi sağlar')
+print('---------------------------------------------------------------')
+metin = 'Merhaba\tPython'
+print(metin)
+print(metin.expandtabs(0))
+print(metin.expandtabs(1))
+print(metin.expandtabs(2))
+print(metin.expandtabs(3))
+print(metin.expandtabs(4))
+print(metin.expandtabs(5))
