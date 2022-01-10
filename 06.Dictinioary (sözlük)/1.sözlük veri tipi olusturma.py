@@ -25,4 +25,13 @@ print(type(sozlukKeyValue))
 print(sozlukKeyValue)
 print()
 
+print('-----------------------------------------------------------------')
+print('dict inşa fonksiyonunun fronkeys() metodunu kullanarak oluşturma\n'
+      '1. iki farklı diziden key-value çifti oluşturarak')
+print('-----------------------------------------------------------------')
+plakaNo = (16,34,42,77)
+il = ('Bursa','İstanbul', 'Konya','Yalova')
+plakaIl = dict.fromkeys(plakaNo, il)
+print(plakaIl)
+print()
 
