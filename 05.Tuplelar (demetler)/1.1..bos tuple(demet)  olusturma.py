@@ -1,4 +1,9 @@
-#Boş demet (tuple) oluşturma
+print('-------------------------------------------------------------@tek_elo')
+print('Tuple\'lar birden çok elemanı tek değişken içinde saklayan yapılardır\n'
+      'Değiştirilebilir, kendi içinde sıralanabilirler')
+print('---------------------------------------------------------------------')
+print()
+print('Boş demet (tuple) oluşturma')
 demet=()
 print(type(demet))
 print(demet)
