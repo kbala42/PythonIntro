@@ -27,11 +27,48 @@ print()
 
 print('-----------------------------------------------------------------')
 print('dict inşa fonksiyonunun fronkeys() metodunu kullanarak oluşturma\n'
-      '1. iki farklı diziden key-value çifti oluşturarak')
+      '1. Boş bir sözlük oluşturma')
 print('-----------------------------------------------------------------')
-plakaNo = (16,34,42,77)
-il = ('Bursa','İstanbul', 'Konya','Yalova')
-plakaIl = dict.fromkeys(plakaNo, il)
-print(plakaIl)
+anahtarlar = ('x','y','z')
+anahtar = dict.fromkeys(anahtarlar)
+print(anahtar)
 print()
 
+print('-----------------------------------------------------------------')
+print('dict inşa fonksiyonunun fronkeys() metodunu kullanarak oluşturma\n'
+      '2. Bütün değerleri 0 olan sözlük oluşturma')
+print('-----------------------------------------------------------------')
+anahtarlar = ('x','y','z')
+deger=0
+anahtar = dict.fromkeys(anahtarlar, deger)
+print(anahtar)
+print()
+deger='sabit'
+anahtar = dict.fromkeys(anahtarlar, deger)
+print(anahtar)
+
+print('-----------------------------------------------------------------')
+print('dict inşa fonksiyonunun fronkeys() metodunu kullanarak oluşturma\n'
+      '3. value bir liste olursa liste eklemeleri dictionary eklenir')
+print('-----------------------------------------------------------------')
+no = (16,34,42,77)
+liste =[1]
+noListe = dict.fromkeys(no, liste)
+print(noListe)
+print()
+liste.append(2)
+print(noListe)
+print()
+liste.append('boyut')
+print(noListe)
+print()
+
+print('-----------------------------------------------------------------')
+print('dict inşa fonksiyonunun fronkeys() metodunu kullanarak oluşturma\n'
+      '4. Bütün değerleri döngü ile sözlük oluşturma')
+print('-----------------------------------------------------------------')
+anahtarlar = {1,2,3}
+deger='x'
+anahtarDongu = {anahtar: list(deger) for anahtar in anahtarlar}
+print(anahtarDongu)
+print()
