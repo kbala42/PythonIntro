@@ -21,3 +21,14 @@ print('--------------------------------------------------------')
 sayilar={1,2,3,8,1,1,5,3}
 print(sayilar)
 print()
+
+print('--------------------------------------------------------')
+print('Setler değişik veri tiplerinden yapılabilir')
+print('--------------------------------------------------------')
+mantiksal = {True, False, True}
+stringTipi = {'Konya', 'İstanbul', 'Ankara'}
+karisik = {'Konya', True, 1, 6.2}
+print(mantiksal)
+print(stringTipi)
+print(karisik )
+print()
