@@ -1,8 +1,16 @@
+print('''
+-----------------------------------------------------------------------------tw:@tek_elo
+Girilen bir metindeki sesli harf, sayı ve özel karakterlerin sayısını bulan programı
+----------------------------------------------------------------------------------------''')
+
 sesli_harfler=["a","e","ı","i","o","ö","u","ü"]
 rakamlar="1234567890"
 ozel_harf=["@","!","&","?"]
+
 ozel_harf_sayısı,rakam_sayısı,sesli_sayısı=0,0,0
+
 kelime=input("lütfen incelemek için bir metin giriniz: ")
+
 for harf in kelime:
     if harf in sesli_harfler:
         sesli_sayısı+=1

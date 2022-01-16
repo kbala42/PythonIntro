@@ -1,11 +1,12 @@
-"""
-Kullanıcıdan aldığınız bir sayının mükemmel olup olmadığını bulmaya çalışın.
+print('''
+-----------------------------------------------------------------------------tw:@tek_elo
+Girilenbir sayının mükemmel olup olmadığını bulmaya çalışın.
 
 Bir sayinın kendi hariç bölenlerinin toplamı kendine eşitse bu sayiya "mükemmel sayi" denir.
 
 Örnek olarak, 6 mükemmel bir sayidır. (1 + 2 + 3 = 6)
+----------------------------------------------------------------------------------------''')
 
-"""
 sayi = int(input("sayi:"))
 
 i = 1
