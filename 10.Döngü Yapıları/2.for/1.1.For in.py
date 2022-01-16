@@ -19,9 +19,9 @@ for i in liste:# liste içinde ki harfleri tek tek yazdırıyoruz
     print(i)
 print()
 
-print('----------------------')
+print('-----------------------------')
 print('demet(tuple) içinde kullanımı')
-print('----------------------')
+print('-----------------------------')
 demet=(5,'kalem',6,'silgi')
 for i in demet:# liste içinde ki harfleri tek tek yazdırıyoruz
     print(i)
@@ -39,9 +39,9 @@ for i in sozluk.values():# sözlük içinde değerleri tek tek yazdırıyoruz
     print(i)
 print()
 
-print('----------------------')
+print('-----------------------------------')
 print('küme(set) içinde kullanımı')
-print('----------------------')
+print('-----------------------------------')
 sayi={3,1,5,5,8,0,5,4}
 for i in sayi:# liste içinde ki harfleri tek tek yazdırıyoruz
     print(i)
