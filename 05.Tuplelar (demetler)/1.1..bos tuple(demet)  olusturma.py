@@ -1,6 +1,6 @@
 print('-------------------------------------------------------------@tek_elo')
 print('Tuple\'lar birden çok elemanı tek değişken içinde saklayan yapılardır\n'
-      'Değiştirilebilir, kendi içinde sıralanabilirler')
+      'Değiştirilemez, kendi içinde sıralanabilirler')
 print('---------------------------------------------------------------------')
 print()
 print('Boş demet (tuple) oluşturma')
