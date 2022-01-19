@@ -1,38 +1,39 @@
-"""
-Kullanıcıdan 2 tane sayı alarak bu sayıların en küçük ortak katlarını (EKOK) dönen bir tane fonksiyon yazın.
-"""
+print('----------------------------------------------------------tw:@tek_elo')
+print('Kullanıcıdan 2 tane sayı alarak bu sayıların en küçük ortak katlarını\n'
+      '(EKOK) dönen bir tane fonksiyon yazın.')
+print('---------------------------------------------------------------------')
+print()
 
-
-def ekok_bulma(sayı1, sayı2):
+def ekokBulma(sayiBir, sayiIki):
     i = 2
     ekok = 1
     while True:
-        if (sayı1 % i == 0 and sayı2 % i == 0):
+        if (sayiBir % i == 0 and sayiIki % i == 0):
             ekok *= i
 
-            sayı1 //= i
-            sayı2 //= i
+            sayiBir //= i
+            sayiIki //= i
 
 
-        elif (sayı1 % i == 0 and sayı2 % i != 0):
+        elif (sayiBir % i == 0 and sayiIki % i != 0):
             ekok *= i
 
-            sayı1 //= i
+            sayiBir //= i
 
 
-        elif (sayı1 % i != 0 and sayı2 % i == 0):
+        elif (sayiBir % i != 0 and sayiIki % i == 0):
             ekok *= i
 
-            sayı2 //= i
+            sayiIki //= i
         else:
             i += 1
-        if (sayı1 == 1 and sayı2 == 1):
+        if (sayiBir == 1 and sayiIki == 1):
             break
     return ekok
 
 
-sayı1 = int(input("Sayı-1:"))
-sayı2 = int(input("Sayı-2:"))
+sayiBir = int(input("Sayı-1:"))
+sayiIki = int(input("Sayı-2:"))
 
-print("Ekok:", ekok_bulma(sayı1, sayı2))
+print("Ekok:", ekokBulma(sayiBir, sayiIki))
 

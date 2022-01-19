@@ -1,6 +1,8 @@
-"""
-1'den 100'e kadar olan sayılardan pisagor üçgeni oluşturanları ekrana yazdıran bir fonksiyon yazın.(a <= 100,b <= 100)
-"""
+print('----------------------------------------------------------tw:@tek_elo')
+print('1\'den 100\'e kadar olan sayılardan pisagor üçgeni oluşturan\n'
+      'fonksiyon yazın.(a <= 100,b <= 100)')
+print('---------------------------------------------------------------------')
+print()
 
 
 def pisagor_bulma():

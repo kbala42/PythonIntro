@@ -1,3 +1,9 @@
+print('----------------------------------------------------------tw:@tek_elo')
+print('Kullanıcının girdiği sayıya kadar olan sayıların toplamı\n'
+      've ortalamalarını hesaplayan fonksiyon')
+print('---------------------------------------------------------------------')
+print()
+
 def toplam_ve_ortalama_hesapla(n):
     toplam=0
     for i in range(n):

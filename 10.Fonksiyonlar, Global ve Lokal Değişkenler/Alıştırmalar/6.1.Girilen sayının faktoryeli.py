@@ -1,3 +1,8 @@
+print('----------------------------------------------------------tw:@tek_elo')
+print('Verilen sayının faktöryelini hesaplayan fonksiyon')
+print('---------------------------------------------------------------------')
+print()
+
 def FaktoriyelAl(sayi):
     sonuc=1
     if (sayi==0 or sayi==1):

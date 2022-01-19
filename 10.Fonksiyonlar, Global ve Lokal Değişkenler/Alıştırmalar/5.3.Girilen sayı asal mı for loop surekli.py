@@ -1,7 +1,13 @@
+print('----------------------------------------------------------tw:@tek_elo')
+print('Girilen sayı asal mı olduğunu for döngüsü ile bulan fonksiyon\n'
+      'Sürekli döngü ile')
+print('---------------------------------------------------------------------')
+print()
+
 def asalMi(sayi):
     if (sayi == 1):
         return False
-    elif ( sayi == 2):
+    elif (sayi == 2):
         return True
     else:
         for i in range(2, sayi):
