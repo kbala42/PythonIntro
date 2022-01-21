@@ -1,16 +1,10 @@
 '''
 ---------------------------------------------------------tw:@tek_elo
-bir listeye indis atama işlemi
+listeyi enumerate ile indis atayıp içinden çift indislileri alıyoruz
 --------------------------------------------------------------------
 '''
 liste = ["Konya","Yalova","Denizli","Van"]
 
-i=0
-sonuc=list()
-
-while (i<len(liste)):
-    sonuc.append((i,liste[i]))
-
-    i+=1
-
-print(sonuc)
+for i,j in enumerate(liste):
+    if (i%2==0):
+        print(i,j)

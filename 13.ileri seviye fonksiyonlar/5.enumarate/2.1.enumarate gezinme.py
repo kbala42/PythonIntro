@@ -1,9 +1,9 @@
 '''
 ---------------------------------------------------------tw:@tek_elo
-reduce fonksiyonu ile lamda fonksiyonunun kullanımı : carpma
+listeye indis atama işlemi
 --------------------------------------------------------------------
 '''
-from functools import reduce
+liste = ["Konya","Yalova","Denizli","Van"]
 
-sonuc=reduce(lambda x,y:x*y,[1,2,3,4,5])
-print(sonuc)
+for i,j in enumerate(liste):
+    print(i,j)

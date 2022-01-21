@@ -3,11 +3,10 @@
 tek sayılar dizisini yine listeye dönüştürerek işlem yapabiliriz
 --------------------------------------------------------------------
 '''
-# Sonuc true olanlarla filter nesnesi oluşturuyoruz
-sonuc=filter(lambda x:x%2==0,[1,2,3,4,5,6,7,8] )
+sonuc=filter(lambda x:x%2,[1,2,3,4,5,6,7,8] )
 
-# filter nesnesini listeye dönüştürüyoruz
-ciftSayilar=list(sonuc)
+#filter nesnesini listeye dönüştürüyoruz
+tekSayilar=list(sonuc)
 
-# listeyi yazdırıyoruz
-print(ciftSayilar)
+#tekSayilar listesini yazdırıyoruz
+print(tekSayilar)

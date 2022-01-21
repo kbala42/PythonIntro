@@ -1,3 +1,8 @@
+'''
+---------------------------------------------------------tw:@tek_elo
+iki sözlüğe zip fonksiyonu uygulamak
+--------------------------------------------------------------------
+'''
 sozluk1={"Bir":1,"İki":2,"Uc":3}
 sozluk2={"Marmara":"Bursa", "İçAnadolu":"Konya","Akdeniz":"Antalya"}
 

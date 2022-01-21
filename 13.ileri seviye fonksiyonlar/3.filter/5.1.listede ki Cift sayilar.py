@@ -1,18 +1,15 @@
 '''
 ---------------------------------------------------------tw:@tek_elo
-Verilen dizide bütün harfleri büyük olanları ayıran program
+Verilen dizide çift olanları yazdıran program
 --------------------------------------------------------------------
 '''
 # 50 ye kadar olan sayılarla liste oluşturuyoruz
 liste=[i*3 for i in range(50)]
 
-#liste içinde ki elemanlardan 50 den büyük olanlarla sonuc filter nesnesi oluşturuyoruz
-sonuc=filter(lambda x:x>50, liste)
-
-# sonuc nesnesinin hafıza adresi
-print(sonuc)
+#liste içinde ki elemanlardan çift olanlarla sonuc filter nesnesi oluşturuyoruz
+sonuc=filter(lambda x:x%2==0, liste)
 
 # sonuc nesnesini yazdırıyoruz
-print(*sonuc)
+print("Çift olanlar: ", *sonuc)
 
 
