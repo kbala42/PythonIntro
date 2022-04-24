@@ -1,3 +1,8 @@
+print('----------------------------------------------------------tw:@tek_elo')
+print('''
+      Verilen değişkenlerle yeni bir string dizisi oluşturma
+      ''')
+print('---------------------------------------------------------------------\n')
 onMesaj = "Sayın "
 veliAdi='Murat KARA'
 

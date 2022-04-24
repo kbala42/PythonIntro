@@ -9,7 +9,6 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import QPixmap
 
 
-
 class Window(QWidget):
     def __init__(self):
         super().__init__()
