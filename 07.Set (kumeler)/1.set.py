@@ -32,3 +32,26 @@ print(mantiksal)
 print(stringTipi)
 print(karisik )
 print()
+
+print(stringTipi)
+print(karisik )
+print()
+
+print('--------------------------------------------------------')
+print('Setler liste, tuple, string\'ten oluşturulabilir')
+print('--------------------------------------------------------')
+liste = ['a', 1, 5, 1, 'b', 'a']
+listeSet = set(liste)
+print(listeSet)
+print('-------------------------')
+
+tuple = (1, 2, 3, 2, 'Mars')
+tupleSet = set(tuple)
+print(tupleSet)
+print('-------------------------')
+
+string = 'Merhaba_Dünya'
+strinSet = set(string)
+print(strinSet)
+print('-------------------------')
+

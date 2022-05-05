@@ -10,6 +10,11 @@ print(type(harfler))
 print(harfler)
 print()
 
+harflerIki = 'x','y','z'
+print(type(harflerIki))
+print(harflerIki)
+print()
+
 bilgisayarDilleri = ("Python","Java","C#","Delphi","C++","Java","Java")
 print(type(bilgisayarDilleri))
 print(bilgisayarDilleri)

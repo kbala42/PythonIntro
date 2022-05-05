@@ -8,3 +8,7 @@ sayi2={5,6,15,0,3}
 print(sayi1)
 print(sayi2)
 print(sayi1.union(sayi2))
+print(sayi2.union(sayi1))
+print(sayi1 | sayi2)
+
+

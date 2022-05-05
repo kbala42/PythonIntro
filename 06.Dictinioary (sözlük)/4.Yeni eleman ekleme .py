@@ -14,3 +14,13 @@ print('-------------------------------------')
 sozluk.update({'renk':'Turkuaz'})
 print(sozluk.values())
 print()
+
+print('-------------------------------------------------@tek_elo')
+print('key değeri tuple olarak atanabilir')
+print('--------------------------------------------------------')
+x = ('Defter',)
+sozluk[x]= '40 sayfa'
+print(sozluk[x])
+print(sozluk)
+print(sozluk[('Defter',)])
+print()
